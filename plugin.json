@@ -1,0 +1,18 @@
+{
+    "id": "sharepoint-update-list",
+    "version": "1.1.0.1",
+    "meta": {
+        "label": "SharePoint Update Lists",
+        "description": "Update your Sharepoint Lists",
+        "author": "Dataiku (Alex Bourret & Andy Holst)",
+        "icon": "icon-list-ol",
+        "tags": [
+            "Connector",
+            "Cloud",
+            "Azure",
+            "Format"
+        ],
+        "url": "https://www.dataiku.com/product/plugins/sharepoint-online/",
+        "licenseInfo": "Apache Software License"
+    }
+}

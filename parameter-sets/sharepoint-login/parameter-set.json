@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "label": "SharePoint Online login",
+        "description": "",
+        "icon": "icon-cloud"
+    },
+    "defaultDefinableInline": true,
+    "defaultDefinableAtProjectLevel": true,
+    "pluginParams": [],
+    "params": [
+        {
+            "name": "sharepoint_tenant",
+            "label": "Tenant",
+            "type": "STRING",
+            "description": "As in <tenant>.sharepoint.com. Please refer to plugin doc.",
+            "mandatory": true
+        },
+        {
+            "name": "sharepoint_site",
+            "label": "Site path",
+            "type": "STRING",
+            "description": "sites/site_name/subsite...",
+            "mandatory": true
+        },
+        {
+            "name": "sharepoint_root",
+            "label": "Root directory",
+            "type": "STRING",
+            "description": "",
+            "defaultValue": "Shared Documents"
+        },
+        {
+            "name": "sharepoint_username",
+            "label": "Username",
+            "type": "STRING",
+            "description": "john.doe@my-corp.com",
+            "mandatory": true
+        },
+        {
+            "name": "sharepoint_password",
+            "label": "Password",
+            "type": "PASSWORD",
+            "description": "",
+            "mandatory": true
+        }
+    ]
+}
